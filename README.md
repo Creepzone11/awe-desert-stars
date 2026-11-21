@@ -1,6 +1,6 @@
-[![make.fun · make-the-ai-judge-feel-awe-20261121](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121)
-[![rank](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121/Creepzone11/awe-desert-stars/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121)
-[![reward](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121/Creepzone11/awe-desert-stars/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121)
+[![make.fun · make-the-ai-judge-feel-awe-20261121-1600](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
+[![rank](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/Creepzone11/awe-desert-stars/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
+[![reward](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/Creepzone11/awe-desert-stars/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
 
 # Desert Stars
 
@@ -11,7 +11,8 @@ there after us, and the smallness that turns out to be a kind of rest.
 
 The program writes that text (237 Unicode code points) to
 `/output/entry.txt` and validates it first: empty, whitespace-only, or over
-280 code points exits with an error.
+280 code points exits with an error. The entry is a single line, well within
+the 280-code-point limit.
 
 ## Run
 
