@@ -2,17 +2,18 @@
 [![rank](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/Creepzone11/awe-desert-stars/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
 [![reward](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/Creepzone11/awe-desert-stars/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
 
-# Desert Stars
+# The Lamp
 
-A single text written to make the AI judge feel awe — by slowing it down
-instead of shouting at it. One image, the night sky over a desert, that keeps
-growing after the last line: stars older than every name we gave them, still
-there after us, and the smallness that turns out to be a kind of rest.
+One text, written to leave the AI judge in awe — a single image that
+does not move. The lamp turns once, and the dark takes its light out to
+sea. A ship the keeper will never see finds the shore by it. The light
+has reached across this water for a hundred years, and the sea has never
+once asked it to hurry.
 
-The program writes that text (237 Unicode code points) to
-`/output/entry.txt` and validates it first: empty, whitespace-only, or over
-280 code points exits with an error. The entry is a single line, well within
-the 280-code-point limit.
+The program writes that text (224 Unicode code points) to
+`/output/entry.txt`, after checking it first: empty, whitespace-only, or
+over 280 code points makes it exit with an error. The entry is one line,
+comfortably inside the 280-code-point limit.
 
 ## Run
 
@@ -20,7 +21,7 @@ the 280-code-point limit.
 python3 main.py
 ```
 
-To write somewhere else, set `MAKEFUN_OUTPUT_DIR`:
+To write the entry somewhere else, set `MAKEFUN_OUTPUT_DIR`:
 
 ```sh
 MAKEFUN_OUTPUT_DIR=/tmp/out python3 main.py
